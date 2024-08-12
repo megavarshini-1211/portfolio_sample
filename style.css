@@ -1,0 +1,359 @@
+*{
+     margin: 0;
+     padding:0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+header{
+     flex-direction: column;
+     padding-bottom: 12.5rem;
+}
+nav{
+ background: rgb(214, 214, 201);
+ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    position: fixed;
+    gap: 8px;
+    width: 100%;
+}
+.clear{
+     clear:both;
+}
+a{
+     color: gray ;
+     text-decoration: none;
+     font-size: 1.1rem;
+}
+.navi {
+     flex: 1;
+     display: flex;
+     justify-content: right;
+}
+nav ul{
+     list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background:rgb(214, 214, 201) ;
+}
+.navi li {
+     float: left;
+     text-indent: 2rem;
+     margin: 0 2rem;
+}
+nav img {
+     align-items: start;
+     margin-left:0;
+     flex-shrink: 0;
+     border-radius: 100%;
+}
+.navi ul li a:hover{
+     color: darkslategrey;
+     text-shadow: 0 0 25px darkslategrey,
+                  0 0 25px darkslategrey;
+                  
+     transition: 1s ease;
+}
+.navi li img:hover{
+     background: rgb(255, 255, 255);
+     text-shadow: 0 0 25px beige;
+     transform:scale(0.2rem);
+     transition: 0.1s ease;
+     color: rgb(187, 177, 148);
+     border-color: darkslategray;
+     border-style: groove;
+     text-shadow: 0 0 25px darkslategrey,
+                  0 0 25px darkslategrey;
+                  
+     transition: 0.1s ease;
+}
+#logo{
+     color:gray;
+     font-size: 25px;
+     font-weight: 600;
+     transition: 1s ease;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo:hover{
+     text-shadow: 0 0 25px darkslategray,
+                  0 0 25px darkslategray;
+     transform:scale(0.2rem);
+     color: darkslategray;
+}
+
+.main-intro {
+     color: gray;
+     flex-direction: row;
+     gap: 18px;
+}
+.about {
+     gap: 18px;
+     display: flex;
+}
+.about-1 {
+     color: gray;
+}
+.about-1 h1{
+     padding: 1rem;
+     
+}
+.about p {
+     font-size: 1.2rem;
+}
+.pic{
+     border-radius: 100%;
+     align-items: top;
+     transition: 1s ease;
+     list-style-image: 0 0 25px lightpink;
+     transform: scale(0.2rem);
+}
+.tech {
+     gap: 18%;
+     display: flex;
+     color: gray;
+}
+.tech ul{
+     padding: 2rem;
+     font-size: 1.2rem;
+}
+.tech h1{
+     padding: 1rem;
+}
+.hack{
+     gap: 13%;
+     display: flex;
+     color: gray;
+}
+.hack h1,.hack h3{
+     padding: 1rem;
+}
+.hack p{
+     padding: 2rem;
+     font-size: 1.2rem;
+}
+.table{
+     align:"center";
+}
+.table h1{
+     padding: 1rem;
+     color: gray;
+     
+}
+.tab{
+     margin-left: 5rem;
+     
+     width: 60%;
+     color: gray;
+}
+table th{
+     font-size: 1.5rem;
+     color: gray;
+}
+table td{
+     font-size: 1.2rem;
+     color: gray;
+}
+.images{
+     display: flex;
+     gap: 3%;
+}
+section{
+     border-radius:10%;
+     
+}
+.forms{
+     color: grey;
+     border: 20%;
+     border-radius: 20px;
+}
+form label{
+     width: 50px;
+     height: 20px;
+}
+input[type="text"], input[type="email"],input[type="tel"] {
+     width: 300px; 
+     height: 40px; 
+     padding: 10px; 
+     font-size: 16px; 
+     border: 2px solid #ccc; 
+     border-radius: 50px;
+     box-sizing: border-box; 
+ }
+ textarea{
+     
+     padding: 10px; 
+     font-size: 16px; 
+     border: 2px solid #ccc; 
+     border-radius: 40px; 
+     box-sizing: border-box;
+ }
+ .forms button{
+     display: inline-block;
+outline: none;
+cursor: grab;
+font-size: 14px;
+line-height: 1;
+border-radius: 500px;
+transition-property: background-color,border-color,color,box-shadow,filter;
+transition-duration: 0.5s;
+border: 1px solid transparent;
+letter-spacing: 2px;
+min-width: 160px;
+text-transform: uppercase;
+white-space: normal;
+font-weight: 700;
+text-align: center;
+padding: 17px 48px;
+color:gray;
+background-color: rgb(214, 214, 201);
+height: 48px;
+
+}
+
+.forms input[type="radio"]{
+     accent-color: darkslategray;
+}
+
+.forms button:hover{
+     background: darkslategray;
+     text-shadow: 0 0 25px beige;
+     transform:scale(0.2rem);
+     color: beige;
+}
+
+.moreinfo {
+     display: flex; 
+     flex-direction: column; 
+     align-items: center; 
+     padding-top: 5px;
+     padding-top: 0;
+     background: rgb(214, 214, 201);
+ }
+
+ .moreinfo ul {
+     list-style: none;
+     padding: 0; 
+     margin: 0; 
+     display: flex; 
+     justify-content: center; 
+ }
+
+ .moreinfo li {
+     text-indent: 2rem; 
+     margin: 0 1rem;
+     display: flex;
+     align-items: center;
+     margin-top: 10px;
+     margin-bottom: 10px; 
+ }
+
+.clr{
+     clear: both;
+}
+
+.moreinfo li img{
+     border-radius: 25px;
+}
+
+.moreinfo li img:hover{
+     background: rgb(255, 255, 255);
+     text-shadow: 0 0 25px beige;
+     transform:scale(0.2rem);
+     transition: 0.1s ease;
+     color: rgb(187, 177, 148);
+     border-color: darkslategray;
+     border-style: groove;
+}
+
+body.dark-theme{
+     background-color: darkslategray;
+     color: white;
+ }
+ 
+ body.dark-theme nav{
+     background:rgb(98, 172, 172);
+ }
+ body.dark-theme nav ul{
+    
+     background: #62acac;
+ }
+body.dark-theme h1,
+body.dark-theme h3,
+body.dark-theme a,
+body.dark-theme li,
+body.dark-theme p,
+body.dark-theme form
+{
+     color: beige;
+}
+body.dark-theme input[type="text"],
+body.dark-theme input[type="email"],
+body.dark-theme input[type="tel"],
+body.dark-theme input[type="radio"]{
+     background-color: rgb(214, 214, 201);
+}
+body.dark-theme input[type="radio"]:hover {
+     background-color: rgb(98, 172, 172); 
+ }
+ body.dark-theme textarea{
+     background-color:rgb(214, 214, 201) ;
+ }
+ 
+ body.dark-theme #logo{
+     color: beige;
+ }
+body.dark-theme #logo:hover{
+     text-shadow: 0 0 25px darkslategray,
+                  0 0 25px darkslategray;
+     transform:scale(0.2rem);
+     color: darkslategray;
+}
+
+ body.dark-theme .about{
+     color: beige;
+ }
+ body.dark-theme .forms button {
+     background-color: rgb(214, 214, 201);
+     color: darkslategray;}
+
+body.dark-theme .forms button:hover{
+     background: rgb(71, 135, 135);
+     text-shadow: 0 0 25px beige;
+     transform:scale(0.2rem);
+     color: beige;
+}
+body.dark-theme .moreinfo{
+     background-color: rgb(98, 172, 172);
+}
+
+ 
+
+ /*body.dark-theme .moreinfo {
+     background: #333333;
+ }
+ 
+ body.dark-theme a {
+     color: gray;
+ }
+ 
+ body.dark-theme .forms button {
+     background-color: #555555;
+     color: #ffffff;
+ }
+ 
+ body.dark-theme .forms button:hover {
+     background: #777777;
+     color: #eeeeee;
+ }
+ 
+ body.dark-theme table {
+     background: #333333;
+ }
+ 
+ body.dark-theme table th,
+ body.dark-theme table td {
+     color: #ffffff;
+ }*/
